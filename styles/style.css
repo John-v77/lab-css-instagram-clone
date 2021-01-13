@@ -14,25 +14,32 @@ body {
 
 main{
   display: flex;
-  justify-content:space-around;
+  justify-content:center;
 }
 
 .content-1{
-  /* background-color: white; */
-  padding: 10%;
+  width: 45%;
+  padding: 5%;
   text-align: justify;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
+.login-btn{
+  width: 22vh;
+  height: 10vh;
+  background:linear-gradient(to bottom, #1c5380, #1c5380) ;
+  text-decoration: none;
+  color:white;
+}
 .top-logos{
   display: flex;
   flex-direction: row;
 
 }
 
-ul{
+footer ul{
   padding: 0 20%;
   display: flex;
   justify-content: space-evenly;
@@ -50,7 +57,12 @@ p{
 }
 
 .content-right{
+  
+    margin-left: 60px;
+    
+}
+
+.content-right-text{
   background-color: white;
-    margin-left: 100px;
-    border-radius: 5px;
+  border-radius: 5px;
 }
